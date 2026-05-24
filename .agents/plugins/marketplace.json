@@ -1,0 +1,20 @@
+{
+  "name": "agevolt-ai-agent",
+  "interface": {
+    "displayName": "AgeVolt AI Agent"
+  },
+  "plugins": [
+    {
+      "name": "agevolt-creator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agevolt-creator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

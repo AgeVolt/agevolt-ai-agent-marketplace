@@ -1,0 +1,39 @@
+{
+  "name": "agevolt-creator",
+  "version": "0.2.0",
+  "description": "Public bootstrap for AgeVolt Creator. It guides Codex to local SharePoint AI Agent rules without publishing internal content.",
+  "author": {
+    "name": "AgeVolt",
+    "email": "zustiak@agevolt.com",
+    "url": "https://www.agevolt.com"
+  },
+  "homepage": "https://github.com/AgeVolt/agevolt-ai-agent-marketplace",
+  "license": "UNLICENSED",
+  "keywords": [
+    "agevolt",
+    "codex",
+    "skills",
+    "marketplace",
+    "bootstrap"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AgeVolt Creator",
+    "shortDescription": "Bootstrap pre AgeVolt AI Agent pravidla.",
+    "longDescription": "AgeVolt Creator bootstrap pomaha Codexu najst lokalne zosynchronizovany SharePoint priecinok AI Agent a potom pouzit interne pravidla, module contracts, skills a governance priamo z neho. Public Git repo neobsahuje internu knowledge base.",
+    "developerName": "AgeVolt",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.agevolt.com",
+    "brandColor": "#280046",
+    "defaultPrompt": [
+      "Pouzi AgeVolt Creator.",
+      "Najdi lokalny SharePoint AI Agent root.",
+      "Pomoz mi vytvorit AgeVolt pravidla."
+    ]
+  }
+}
