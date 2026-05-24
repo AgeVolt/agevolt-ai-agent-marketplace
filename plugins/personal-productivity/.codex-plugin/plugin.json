@@ -1,0 +1,39 @@
+{
+  "name": "personal-productivity",
+  "version": "0.1.0",
+  "description": "Public bootstrap for AgeVolt personal productivity workflows. It points Codex to internal SharePoint rules for personal rules, mail triage, meeting prep, and task routines.",
+  "author": {
+    "name": "AgeVolt",
+    "email": "zustiak@agevolt.com",
+    "url": "https://www.agevolt.com"
+  },
+  "homepage": "https://github.com/AgeVolt/agevolt-ai-agent-marketplace",
+  "license": "UNLICENSED",
+  "keywords": [
+    "agevolt",
+    "personal-productivity",
+    "codex",
+    "skills",
+    "bootstrap"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Personal Productivity",
+    "shortDescription": "Osobne pravidla a produktivita.",
+    "longDescription": "Personal Productivity bootstrap pomaha Codexu najst lokalne zosynchronizovany SharePoint AI Agent root a pouzit interne pravidla pre osobne workflowy, triedenie mailov, pripravu meetingov a task rutiny. Public Git repo neobsahuje internu knowledge base.",
+    "developerName": "AgeVolt",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.agevolt.com",
+    "brandColor": "#280046",
+    "defaultPrompt": [
+      "Pomoz mi vytvorit osobne pravidla.",
+      "Navrhni pravidla pre triedenie mailov.",
+      "Priprav moj osobny produktivny workflow."
+    ]
+  }
+}
