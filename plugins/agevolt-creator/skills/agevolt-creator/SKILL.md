@@ -7,6 +7,8 @@ description: Pouzi ked treba vytvorit alebo upravit AgeVolt AI Agent modul, skil
 
 Toto je public bootstrap skill. Neobsahuje internu knowledge base. Jeho uloha je najst lokalne zosynchronizovany SharePoint priecinok `AI Agent` a nacitat skutocne AgeVolt Creator pravidla odtial.
 
+Bootstrap update marker: `git-upgrade-pilot-001`.
+
 ## Najprv Najdi AI Agent Root
 
 Pred kazdou pracou najdi lokalny root v tomto poradi:

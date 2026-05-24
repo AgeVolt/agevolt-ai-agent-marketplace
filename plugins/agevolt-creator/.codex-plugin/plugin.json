@@ -1,6 +1,6 @@
 {
   "name": "agevolt-creator",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Public bootstrap for AgeVolt Creator. It guides Codex to local SharePoint AI Agent rules without publishing internal content.",
   "author": {
     "name": "AgeVolt",
